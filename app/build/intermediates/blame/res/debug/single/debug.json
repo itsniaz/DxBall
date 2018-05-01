@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound1.wav.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\raw\\sound1.wav"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\raw_menubg.mp3.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\raw\\menubg.mp3"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\layout_loading.xml.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\layout\\loading.xml"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_circular_progress_bar.xml.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-mdpi\\circular_progress_bar.xml"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_dx_icon.png.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xhdpi\\dx_icon.png"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\layout_score.xml.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\layout\\score.xml"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_aa.jpg.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xxhdpi\\aa.jpg"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_aa.jpg.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-hdpi\\aa.jpg"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_circular_progress_bar.xml.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xhdpi\\circular_progress_bar.xml"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\layout_about.xml.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_dx_icon.png.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-mdpi\\dx_icon.png"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_aa.jpg.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xhdpi\\aa.jpg"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\raw_level1bg.mp3.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\raw\\level1bg.mp3"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_aa.jpg.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-ldpi\\aa.jpg"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_circular_progress_bar.xml.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-hdpi\\circular_progress_bar.xml"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_circular_progress_bar.xml.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-ldpi\\circular_progress_bar.xml"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_dxb_logo.gif.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xxhdpi\\dxb_logo.gif"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound2.wav.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\raw\\sound2.wav"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound4.wav.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\raw\\sound4.wav"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_dx_icon.png.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-hdpi\\dx_icon.png"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_btnbg.png.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xxhdpi\\btnbg.png"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_dx_icon.png.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xxhdpi\\dx_icon.png"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_dx_icon.png.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-ldpi\\dx_icon.png"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_circular_progress_bar.xml.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xxhdpi\\circular_progress_bar.xml"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_btnbg.png.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xhdpi\\btnbg.png"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\layout_highscore.xml.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\layout\\highscore.xml"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btnbg.png.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-mdpi\\btnbg.png"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_aa.jpg.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-mdpi\\aa.jpg"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btnbg.png.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-ldpi\\btnbg.png"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\raw_winningmenu.mp3.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\raw\\winningmenu.mp3"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound6.wav.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\raw\\sound6.wav"
+    },
+    {
+        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btnbg.png.flat",
+        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-hdpi\\btnbg.png"
+    }
+]
