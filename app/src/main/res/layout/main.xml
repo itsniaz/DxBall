@@ -5,21 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="@drawable/aa"
+    android:background="@drawable/background"
     android:orientation="vertical"
     android:weightSum="1">
-    
-    <ImageView
-        android:id="@+id/btnIng"
-        android:layout_width="300px"
-        android:layout_height="300px"
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
- 
-        android:gravity="center"
-        android:background="@drawable/logo"/>
-    
+
 
     <Button
         android:id="@+id/btnPlay"
@@ -28,29 +17,14 @@
         android:layout_marginBottom="7dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
+        android:background="@drawable/btn"
         android:gravity="center"
         android:onClick="onClickPlay"
         android:text="START"
-        android:background="@drawable/btnbg"
         android:textSize="27sp"
         android:textStyle="bold"
         android:typeface="serif" />
-    <Button
-        android:id="@+id/btnAbout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="7dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:gravity="center"
-        android:onClick="onClickAbout"
-        android:text="ABOUT"
-        android:background="@drawable/btnbg"
-        android:textSize="27sp"
-        android:textStyle="bold"
-        android:typeface="serif"
-        tools:textStyle="bold" />
-    
+
     <Button
         android:id="@+id/btnHigh"
         android:layout_width="match_parent"
@@ -61,22 +35,7 @@
         android:gravity="center"
         android:onClick="onClickHighScore"
         android:text="High Score"
-        android:background="@drawable/btnbg"
-        android:textSize="27sp"
-        android:textStyle="bold"
-        android:typeface="serif" />
-    
-    <Button
-        android:id="@+id/btnOption"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="7dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:gravity="center"
-        android:onClick="onClick"
-        android:text="Options"
-        android:background="@drawable/btnbg"
+        android:background="@drawable/btn"
         android:textSize="27sp"
         android:textStyle="bold"
         android:typeface="serif" />
@@ -89,7 +48,7 @@
         android:layout_marginRight="20dp"
         android:gravity="center"
         android:onClick="onClickExit"
-        android:background="@drawable/btnbg"
+        android:background="@drawable/btn"
         android:text="Exit"
         android:textSize="27sp"
         android:textStyle="bold"

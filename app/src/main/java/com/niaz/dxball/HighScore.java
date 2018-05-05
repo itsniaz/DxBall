@@ -29,7 +29,6 @@ public class HighScore extends Activity {
 
 	@Override
 	protected void onResume() {
-		// TODO Auto-generated method stub
 		super.onResume();
 		tv1.setText(getMemoryValue());
 	}

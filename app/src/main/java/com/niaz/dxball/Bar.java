@@ -11,9 +11,9 @@ public class Bar {
     public void setBar(Canvas canvas) {
     	barLeft= (canvas.getWidth()/2)-(canvas.getWidth()/6);
         barRight = barLeft + (canvas.getWidth()/3);
-        barBottom = canvas.getHeight();
+        barBottom = canvas.getHeight()-10;
         barTop = barBottom - 60;
-        barWidth = barRight-barLeft;
+        barWidth = barRight+barLeft;
     }
 
     public void drawBar(Canvas canvas, Paint paint) {

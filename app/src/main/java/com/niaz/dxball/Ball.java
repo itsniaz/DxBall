@@ -1,7 +1,12 @@
 package com.niaz.dxball;
 
+import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
+import android.media.ToneGenerator;
+import android.util.Log;
 
 import java.util.ArrayList;
 
@@ -11,12 +16,20 @@ public class Ball {
     private float dx = 5;
     private float dy = -5;
     private float radius=30;
-    
+    private Context  context;
+    MediaPlayer player;
+
     public Ball()
     {
 
+
 	}
 
+    public Ball(Context context)
+    {
+
+        this.context = context;
+    }
     public boolean isBallAvailable() {
         return isBallAvailable;
     }
@@ -79,18 +92,19 @@ public class Ball {
     }
 
     public void nextPos(Canvas canvas, Bar bar, Paint paint) {
+
         //If the ball gets out of window through x axis
     	if(x< radius || x > (canvas.getWidth() - radius)){
     		dx = -dx;
     	}
 
         //If the ball gets out of window through top y axis
-    	if(y < radius|| y > (canvas.getHeight() - radius)){
+    	else if(y < radius|| y > (canvas.getHeight() - radius)){
     		dy=-dy;
     	}
 
     	//Ball drop on the bar
-    	else if (y + radius >= bar.getBarTop() && x > bar.getBarLeft() && x < bar.getBarRight()) {
+    	else if (y + radius > bar.getBarTop() && x > bar.getBarLeft() && x < bar.getBarRight()) {
     		 dy = -dy; 
     	}
 
@@ -108,7 +122,7 @@ public class Ball {
     	else if(y>bar.getBarBottom()-radius){
     		dx=0;
     		dy=0;
-    		GameActivity.life--;
+    		GameView.life--;
     		isBallAvailable=false;
     	}
         x += dx;
@@ -120,13 +134,13 @@ public class Ball {
     public void ballBrickCollision(ArrayList<Brick> br, Ball ball){
         for(int i=0;i<br.size();i++) {
             if (((ball.getY() - ball.getRadius()) <= br.get(i).getBottom()) && ((ball.getY() + ball.getRadius()) >= br.get(i).getTop()) && ((ball.getX()) >= br.get(i).getLeft()) && ((ball.getX()) <= br.get(i).getRight())) {
-                br.remove(i); 
-                GameActivity.score +=10;
+                br.remove(i);
+                GameView.score +=10;
                 ball.setDY(-(ball.getDY()));
             }
             else if(((ball.getY()) <= br.get(i).getBottom()) && ((ball.getY()) >= br.get(i).getTop()) && ((ball.getX() + ball.getRadius()) >= br.get(i).getLeft()) && ((ball.getX() - ball.getRadius()) <= br.get(i).getRight())) {
                 br.remove(i);
-                GameActivity.score +=10;
+                GameView.score +=10;
                 ball.setDX(-(ball.getDX()));
             }
         }

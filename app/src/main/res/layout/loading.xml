@@ -7,7 +7,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:weightSum="1"
-    android:background="#000000">
+    android:background="@drawable/background">
     
     <ImageView
         android:id="@+id/btnPlay"
@@ -16,9 +16,7 @@
         android:layout_marginBottom="7dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        
         android:gravity="center"
-        android:background="@drawable/logo"
          />
     
     <TextView android:id="@+id/gameTitle"

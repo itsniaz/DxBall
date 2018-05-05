@@ -23,7 +23,7 @@ public class LoadingScreen extends Activity{
                 try {
                     super.run();
                     Log.d("Enrty-Log","Show Loading Secreen");
-                    sleep(5000);
+                    sleep(0);
                 } catch (Exception e) {
 
                 } finally {

@@ -1,12 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:1:1-42:12
-INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml:1:1-42:12
-INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml:1:1-42:12
-INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml:1:1-42:12
-INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml:1:1-42:12
-INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml:1:1-42:12
-INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml:1:1-42:12
+ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml:1:1-36:12
 	package
 		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:2:5-30
 		INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml
@@ -21,67 +21,61 @@ INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml:1:1-42:12
 		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:3:5-28
 		INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml
 		INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml
+application
+ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:8:5-34:19
+	android:label
+		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:10:9-51
+	android:allowBackup
+		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:12:9-40
+activity#com.niaz.dxball.LoadingScreen
+ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:14:9-21:20
+	android:label
+		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:16:13-45
+	android:name
+		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:15:13-57
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:17:13-20:29
+action#android.intent.action.MAIN
+ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:19:27-74
+activity#com.niaz.dxball.MainActivity
+ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:22:9-25:20
+	android:label
+		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:24:13-45
+	android:name
+		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:23:13-56
+activity#com.niaz.dxball.Score
+ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:26:9-29:20
+	android:label
+		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:28:13-45
+	android:name
+		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:27:13-49
+activity#com.niaz.dxball.HighScore
+ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:30:9-33:20
+	android:label
+		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:32:13-45
+	android:name
+		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:31:13-53
 uses-sdk
-ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:6:5-8:41
-INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml:6:5-8:41
-INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml:6:5-8:41
-INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml:6:5-8:41
-INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml
+INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml
+INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml
+INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:8:9-38
 		INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml
+		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml
 		INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:7:9-34
 		INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml
+		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml
 		INJECTED from E:\DxBall\app\src\main\AndroidManifest.xml
-application
-ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:10:5-40:19
-	android:label
-		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:13:9-41
-	android:icon
-		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:12:9-41
-	android:allowBackup
-		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:11:9-35
-	android:theme
-		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:14:9-40
-activity#com.niaz.dxball.LoadingScreen
-ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:16:9-23:20
-	android:label
-		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:18:13-45
-	android:name
-		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:17:13-57
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:19:13-22:29
-action#android.intent.action.MAIN
-ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:20:17-69
-	android:name
-		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:20:25-66
-category#android.intent.category.LAUNCHER
-ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:21:17-77
-	android:name
-		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:21:27-74
-activity#com.niaz.dxball.MainActivity
-ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:24:9-27:20
-	android:label
-		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:26:13-45
-	android:name
-		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:25:13-56
-activity#com.niaz.dxball.About
-ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:28:9-31:20
-	android:label
-		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:30:13-45
-	android:name
-		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:29:13-49
-activity#com.niaz.dxball.Score
-ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:32:9-35:20
-	android:label
-		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:34:13-45
-	android:name
-		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:33:13-49
-activity#com.niaz.dxball.HighScore
-ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:36:9-39:20
-	android:label
-		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:38:13-45
-	android:name
-		ADDED from E:\DxBall\app\src\main\AndroidManifest.xml:37:13-53

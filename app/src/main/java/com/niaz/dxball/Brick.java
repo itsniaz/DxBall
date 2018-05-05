@@ -3,6 +3,7 @@ package com.niaz.dxball;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Point;
+import android.media.MediaPlayer;
 
 public class Brick {
     float bricktop,brickbottom,brickleft,brickright;
@@ -11,6 +12,7 @@ public class Brick {
     Point point;
     int x,y;
     int brickcolor;
+
     
     Brick(float left,float top,float right,float bottom,int color){
         this.brickleft =left;

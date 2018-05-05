@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="@drawable/aa"
+    android:background="@drawable/background"
     android:orientation="vertical"
     android:weightSum="1">
     
@@ -16,7 +16,7 @@
         android:layout_marginBottom="5dp"
         android:gravity="center"
         android:text="Score"
-        android:textColor="#f44444"
+        android:textColor="@android:color/black"
         android:textSize="40sp"
        	android:textStyle="bold"/> 
       
@@ -27,7 +27,7 @@
         android:layout_marginBottom="20dp"
         android:gravity="center"
         android:text="0"
-        android:textColor="#f44444"
+        android:textColor="@android:color/black"
         android:textSize="30sp"
        	android:textStyle="bold"/> 
 
@@ -41,7 +41,7 @@
         android:gravity="center"
         android:onClick="onClickTryAgain"
         android:text="Try Again"
-        android:background="@drawable/btnbg"
+        android:background="@drawable/btn"
         android:textSize="27sp"
         android:textStyle="bold"
         android:typeface="serif" />
@@ -56,7 +56,7 @@
         android:gravity="center"
         android:onClick="onClickMainMenu"
         android:text="Main Menu"
-        android:background="@drawable/btnbg"
+        android:background="@drawable/btn"
         android:textSize="27sp"
         android:textStyle="bold"
         android:typeface="serif"

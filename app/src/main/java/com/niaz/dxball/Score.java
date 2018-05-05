@@ -10,8 +10,6 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
 
-import com.niaz.dxball.R;
-
 public class Score extends Activity{
 	TextView tv1;
 	String newString;
@@ -67,7 +65,7 @@ public class Score extends Activity{
 	        //player.stop();
 	        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 	        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
-	        setContentView(new GameActivity(this));
+	        setContentView(new GameView(this));
 	 }
 	
 	 public void onClickMainMenu(View view) {
