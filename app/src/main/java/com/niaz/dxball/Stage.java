@@ -10,7 +10,7 @@ public class Stage {
 	float padding=25;
 	float perRowNumberOfBrick = 5;
     float brickDistance = 20;
-    float brickHeight = 80;
+    float brickHeight = 100;
     float brickX;
     float brickY;
     int col;
@@ -25,7 +25,7 @@ public class Stage {
             	if(cnt%2==0)
             		col = Color.BLACK;
             	else
-            		col = Color.CYAN;
+            		col = Color.YELLOW;
             	bricks.add(new Brick(brickX, brickY, brickX + bricWidth, brickY + brickHeight, col));
             	brickX += bricWidth;
              	cnt++;

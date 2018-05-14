@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\DxBall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "E:\\DxBall\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "E:\\DxBall\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "6,15",
                         "startColumns": "4,4",

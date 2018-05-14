@@ -2,94 +2,78 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="24"
-    build-mode="HOT_WARM"
+    build-mode="COLD"
     density="xxxhdpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.1.2"
-    timestamp="1525537041120"
-    token="-823716790844663377"
-    verifier="COMPATIBLE" >
+    timestamp="1525569113765"
+    token="1196931825179014318"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="124" />
+        duration="265" />
     <task
         name="instant-run-dex"
-        duration="711" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="131" />
+        duration="47" />
     <task
         name="verifier"
-        duration="3" />
+        duration="0" />
 
     <artifact
-        location="E:\DxBall\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="E:\DxBall\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="E:\AndroidStudio\DxBall\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1525536453802"
+        timestamp="1525568591168"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="E:\DxBall\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="E:\AndroidStudio\DxBall\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="E:\DxBall\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="E:\AndroidStudio\DxBall\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="E:\DxBall\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="E:\AndroidStudio\DxBall\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="E:\DxBall\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="E:\AndroidStudio\DxBall\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="E:\DxBall\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="E:\AndroidStudio\DxBall\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="E:\DxBall\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="E:\AndroidStudio\DxBall\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="E:\DxBall\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="E:\AndroidStudio\DxBall\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="E:\DxBall\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="E:\AndroidStudio\DxBall\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="E:\DxBall\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="E:\AndroidStudio\DxBall\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="E:\DxBall\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="E:\AndroidStudio\DxBall\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="E:\DxBall\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            location="E:\AndroidStudio\DxBall\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1525536839847"
+        timestamp="1525569113765"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="E:\DxBall\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="E:\AndroidStudio\DxBall\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
-        <artifact
-            location="E:\DxBall\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1525537041120"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="E:\DxBall\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="E:\DxBall\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

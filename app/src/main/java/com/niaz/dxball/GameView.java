@@ -21,11 +21,13 @@ class GameView extends View{
     static int score=0;
     int level;
     float xT;
+    int speed;
     
     boolean createGame;
     boolean gameStart = true;
     boolean start = false;
-  
+
+    Context context;
     Canvas canvas;
     Paint paint;
     Bar bar;
@@ -33,18 +35,21 @@ class GameView extends View{
     Score scorelist;
     ArrayList<Brick>bricks =new ArrayList<Brick>();
     Stage stage = new Stage();
+
     
 
 //    @SuppressLint("ClickableViewAccessibility")
 	public GameView(Context context) {
         super(context);
+        this.context = context;
         paint =new Paint();
         level = 1;
         createGame = true;
         gameOver = false;
+        speed=10;
         
         bar = new Bar();
-        ball = new Ball(context);
+        ball = new Ball(context,speed,level);
         
         setOnTouchListener(new OnTouchListener() {
             @Override
@@ -93,10 +98,16 @@ class GameView extends View{
         if (createGame) {
             createGame = false;
             if (level == 1) {
+                ball.setLevel(1);
+                this.speed = 10;
+                ball.setSpeed(speed);
                 stage.levelOne(canvas,bricks); 
             }
             else if (level == 2) {
                 stage.levelTwo(canvas,bricks);
+                ball.setLevel(2);
+                this.speed = 15;
+                ball.setSpeed(15);
             }
             else{
                 gameOver = true;
@@ -112,14 +123,15 @@ class GameView extends View{
         {
             ball.setBallAvailable(true);
             gameStart = true;
-            ball.setDX(5);
-            ball.setDY(-5);
+            start=false;
+            ball.setSpeed(speed);
         }
-        
+
         if(life !=0 && bricks.size()==0){
         	level++;
         	gameStart=true;
         	createGame=true;
+        	start=true;
         }
         
         if(life==0 || gameOver==true){
@@ -131,7 +143,6 @@ class GameView extends View{
           Handler handler = new Handler();
           handler.postDelayed(new Runnable() {
                 public void run() {
-                    // Actions to do after 10 seconds
                      Intent i = new Intent(getContext(), Score.class);
                      i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                      String strName = String.valueOf(score);
@@ -140,16 +151,29 @@ class GameView extends View{
                      System.exit(0);
        
                 }
-         }, 10);
+         }, 100);
     }
 
     public void drawLifeText(Canvas canvas) {
-        paint.setColor(Color.BLACK);
         paint.setColor(Color.RED);
         paint.setTypeface(Typeface.create("Arial",Typeface.BOLD));
-        paint.setTextSize(40);
-        canvas.drawText("LIFE : " + life,canvas.getWidth() - 150 , 60, paint);
-        canvas.drawText("LEVEL : " + level, canvas.getWidth() / 2 - 60, 60, paint);
+        paint.setTextSize(60);
+        String lives= "";
+        if(life==1)
+        {
+            lives = "❤";
+        }
+        else if(life==2)
+        {
+            lives = "❤❤";
+        }
+        else if(life==3)
+        {
+            lives =  "❤❤❤";
+        }
+        canvas.drawText("LIFE : " + lives,canvas.getWidth() - 400 , 60, paint);
+        paint.setColor(Color.BLACK);
+        canvas.drawText("LEVEL : " + level, canvas.getWidth() / 2 - 100, 60, paint);
         canvas.drawText("SCORE : " + score,  20, 60, paint); 
     }
     

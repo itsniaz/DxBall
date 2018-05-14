@@ -2,6 +2,7 @@ package com.niaz.dxball;
 
 import android.content.Context;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
@@ -17,7 +18,11 @@ public class Ball {
     private float dy = -5;
     private float radius=30;
     private Context  context;
-    MediaPlayer player;
+    int level;
+    MediaPlayer firstHitl1;
+    MediaPlayer firstHitl2;
+    MediaPlayer secondHitl2;
+    MediaPlayer barHit;
 
     public Ball()
     {
@@ -25,10 +30,18 @@ public class Ball {
 
 	}
 
-    public Ball(Context context)
+    public Ball(Context context,int speed,int level)
     {
 
         this.context = context;
+        this.dx = speed;
+        this.dy = -(speed);
+        this.level=level;
+        firstHitl1 = MediaPlayer.create(context, R.raw.firsthit);
+        firstHitl2 = MediaPlayer.create(context, R.raw.firsthit2);
+        secondHitl2 = MediaPlayer.create(context, R.raw.secondhit);
+        barHit = MediaPlayer.create(context, R.raw.barhit);
+
     }
     public boolean isBallAvailable() {
         return isBallAvailable;
@@ -79,6 +92,10 @@ public class Ball {
     	return radius; 
     }
 
+    public void setLevel(int level)
+    {
+        this.level = level;
+    }
 
     public void setBall(Canvas canvas,Bar bar) {
         float barMid = (bar.getBarRight()-bar.getBarLeft())/2;
@@ -86,6 +103,11 @@ public class Ball {
         y = bar.getBarTop()-radius;
     }
 
+    public void setSpeed(int speed)
+    {
+        setDX(speed);
+        setDY(-speed);
+    }
     public void drawBall(Canvas canvas, Paint paint){
     	//Log.d("Draw-Entry","Draw Ball in Ball Class");
         canvas.drawCircle(x,y,radius,paint);
@@ -93,30 +115,31 @@ public class Ball {
 
     public void nextPos(Canvas canvas, Bar bar, Paint paint) {
 
-        //If the ball gets out of window through x axis
+        //If the ball hit x axis boundary
     	if(x< radius || x > (canvas.getWidth() - radius)){
     		dx = -dx;
     	}
 
-        //If the ball gets out of window through top y axis
-    	else if(y < radius|| y > (canvas.getHeight() - radius)){
+        //If the ball hits top y axis boundary
+    	else if(y < radius){
     		dy=-dy;
     	}
 
     	//Ball drop on the bar
     	else if (y + radius > bar.getBarTop() && x > bar.getBarLeft() && x < bar.getBarRight()) {
-    		 dy = -dy; 
+    		 dy = -dy;
+    		 barHit.start();
     	}
 
-        //Ball drop on left edge
-    	else if(x+radius == bar.getBarLeft() - 20 && y>=bar.getBarTop()){
-            dx = - dx;
-        }
-
-        //Ball drop on right edge
-    	else if(x+radius == bar.getBarRight() + 10 && y >= bar.getBarTop()){
-            dy = - dy;
-        }
+//        //Ball drop on left edge
+//    	else if(x+radius == bar.getBarLeft() - 20 && y>=bar.getBarTop()){
+//            dx = - dx;
+//        }
+//
+//        //Ball drop on right edge
+//    	else if(x+radius == bar.getBarRight() + 10 && y >= bar.getBarTop()){
+//            dy = - dy;
+//        }
 
         //Ball falls out of bar
     	else if(y>bar.getBarBottom()-radius){
@@ -124,6 +147,7 @@ public class Ball {
     		dy=0;
     		GameView.life--;
     		isBallAvailable=false;
+    		return;
     	}
         x += dx;
         y += dy;
@@ -132,17 +156,60 @@ public class Ball {
 
     
     public void ballBrickCollision(ArrayList<Brick> br, Ball ball){
-        for(int i=0;i<br.size();i++) {
-            if (((ball.getY() - ball.getRadius()) <= br.get(i).getBottom()) && ((ball.getY() + ball.getRadius()) >= br.get(i).getTop()) && ((ball.getX()) >= br.get(i).getLeft()) && ((ball.getX()) <= br.get(i).getRight())) {
-                br.remove(i);
-                GameView.score +=10;
-                ball.setDY(-(ball.getDY()));
-            }
-            else if(((ball.getY()) <= br.get(i).getBottom()) && ((ball.getY()) >= br.get(i).getTop()) && ((ball.getX() + ball.getRadius()) >= br.get(i).getLeft()) && ((ball.getX() - ball.getRadius()) <= br.get(i).getRight())) {
-                br.remove(i);
-                GameView.score +=10;
-                ball.setDX(-(ball.getDX()));
+
+        if(level==1)
+        {
+            for(int i=0;i<br.size();i++) {
+                if (((ball.getY() - ball.getRadius()) <= br.get(i).getBottom()) && ((ball.getY() + ball.getRadius()) >= br.get(i).getTop()) && ((ball.getX()) >= br.get(i).getLeft()) && ((ball.getX()) <= br.get(i).getRight())) {
+                   firstHitl1.start();
+                    br.remove(i);
+                    GameView.score +=10;
+                    ball.setDY(-(ball.getDY()));
+                }
+                else if(((ball.getY()) <= br.get(i).getBottom()) && ((ball.getY()) >= br.get(i).getTop()) && ((ball.getX() + ball.getRadius()) >= br.get(i).getLeft()) && ((ball.getX() - ball.getRadius()) <= br.get(i).getRight())) {
+                    firstHitl1.start();
+                    br.remove(i);
+                    GameView.score +=10;
+                    ball.setDX(-(ball.getDX()));
+                }
             }
         }
+        else if(level==2)
+        {
+            for(int i=0;i<br.size();i++) {
+                if (((ball.getY() - ball.getRadius()) <= br.get(i).getBottom()) && ((ball.getY() + ball.getRadius()) >= br.get(i).getTop()) && ((ball.getX()) >= br.get(i).getLeft()) && ((ball.getX()) <= br.get(i).getRight())) {
+                    if(br.get(i).getHit()==0)
+                   {
+                       firstHitl2.start();
+                       br.get(i).hit++;
+                       br.get(i).setPaintColor(Color.RED);
+                   }
+                   else if(br.get(i).getHit()==1)
+                    {
+                        secondHitl2.start();
+                        br.remove(i);
+                        GameView.score +=10;
+                    }
+
+                    ball.setDY(-(ball.getDY()));
+                }
+                else if(((ball.getY()) <= br.get(i).getBottom()) && ((ball.getY()) >= br.get(i).getTop()) && ((ball.getX() + ball.getRadius()) >= br.get(i).getLeft()) && ((ball.getX() - ball.getRadius()) <= br.get(i).getRight())) {
+                    if(br.get(i).getHit()==0)
+                    {
+                        br.get(i).hit++;
+                        br.get(i).setPaintColor(Color.RED);
+                    }
+                    else if(br.get(i).getHit()==1)
+                    {
+                        br.remove(i);
+                        GameView.score +=10;
+                    }
+                    GameView.score +=10;
+                    ball.setDX(-(ball.getDX()));
+                }
+            }
+
+        }
+
     }
 }

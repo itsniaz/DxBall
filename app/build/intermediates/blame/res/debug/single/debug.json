@@ -1,306 +1,302 @@
 [
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound1.wav.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\raw\\sound1.wav"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\layout_score.xml.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\layout\\score.xml"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\layout_score.xml.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\layout\\score.xml"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-hdpi\\btn.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "E:\\DxBall\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\raw_firsthit.wav.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\raw\\firsthit.wav"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_aa.jpg.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-hdpi\\aa.jpg"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_btn.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-xhdpi\\btn.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_aa.jpg.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-xhdpi\\aa.jpg"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_btn_round.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-hdpi\\btn_round.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_dx_icon.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-mdpi\\dx_icon.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_aa.jpg.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xhdpi\\aa.jpg"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_btn.xml.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-anydpi-v26\\btn.xml"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-mdpi\\btn.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_btn_round.xml.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-anydpi-v26\\btn_round.xml"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_btn_round.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-xxxhdpi\\btn_round.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\raw_wall.wav.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\raw\\wall.wav"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_btn_round.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-xhdpi\\btn_round.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\raw_firsthit2.wav.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\raw\\firsthit2.wav"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_btn.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-xhdpi\\btn.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_btn.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xxhdpi\\btn.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_btn_round.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-xxxhdpi\\btn_round.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_circular_progress_bar.xml.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-hdpi\\circular_progress_bar.xml"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_dx_icon.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-hdpi\\dx_icon.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_circular_progress_bar.xml.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-ldpi\\circular_progress_bar.xml"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btnbg.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-mdpi\\btnbg.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_btn.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-mdpi\\btn.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_btn_round.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-mdpi\\btn_round.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\layout_loading.xml.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\layout\\loading.xml"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_btn.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-hdpi\\btn.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_aa.jpg.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-ldpi\\aa.jpg"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound2.wav.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\raw\\sound2.wav"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_btn_round.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-xhdpi\\btn_round.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_btn_round.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-hdpi\\btn_round.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_btn.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-xxhdpi\\btn.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btnbg.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-ldpi\\btnbg.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_btnbg.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xxhdpi\\btnbg.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\layout_highscore.xml.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\layout\\highscore.xml"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_dx_icon.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xxhdpi\\dx_icon.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_circular_progress_bar.xml.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-xxhdpi\\circular_progress_bar.xml"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_btnbg.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-xhdpi\\btnbg.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_aa.jpg.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-mdpi\\aa.jpg"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_btn.xml.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-anydpi-v26\\btn.xml"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_btn_round.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-xxhdpi\\btn_round.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound6.wav.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\raw\\sound6.wav"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "E:\\DxBall\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_dx_icon.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-ldpi\\dx_icon.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_btn_round.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-mdpi\\btn_round.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_circular_progress_bar.xml.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-ldpi\\circular_progress_bar.xml"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\raw_menubg.mp3.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\raw\\menubg.mp3"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-mdpi\\btn.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\layout_loading.xml.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\layout\\loading.xml"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btnbg.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-hdpi\\btnbg.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_circular_progress_bar.xml.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-mdpi\\circular_progress_bar.xml"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_dx_icon.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xhdpi\\dx_icon.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background.jpg.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable\\background.jpg"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_btn.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-xhdpi\\btn.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "E:\\DxBall\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_aa.jpg.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xxhdpi\\aa.jpg"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_btnbg.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-xxhdpi\\btnbg.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_btn_round.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-xxhdpi\\btn_round.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_circular_progress_bar.xml.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xhdpi\\circular_progress_bar.xml"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_btn_round.xml.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-anydpi-v26\\btn_round.xml"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_aa.jpg.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-hdpi\\aa.jpg"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_btn.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-xxxhdpi\\btn.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\raw_level1bg.mp3.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\raw\\level1bg.mp3"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-hdpi\\btn.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "E:\\DxBall\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\layout\\main.xml"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_dx_icon.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-mdpi\\dx_icon.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_aa.jpg.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-ldpi\\aa.jpg"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_btn.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-mdpi\\btn.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_btn.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xhdpi\\btn.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_circular_progress_bar.xml.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-xhdpi\\circular_progress_bar.xml"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_btn.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-xxxhdpi\\btn.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_round.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable\\ic_launcher_round.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound4.wav.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\raw\\sound4.wav"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_circular_progress_bar.xml.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-mdpi\\circular_progress_bar.xml"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "E:\\DxBall\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\raw_barhit.wav.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\raw\\barhit.wav"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_round.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable\\ic_launcher_round.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_dx_icon.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-hdpi\\dx_icon.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_btn.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-xxhdpi\\btn.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_aa.jpg.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-xxhdpi\\aa.jpg"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "E:\\DxBall\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_btn.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-hdpi\\btn.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_dx_icon.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-ldpi\\dx_icon.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_circular_progress_bar.xml.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xxhdpi\\circular_progress_bar.xml"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_dx_icon.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-xhdpi\\dx_icon.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "E:\\DxBall\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_circular_progress_bar.xml.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-hdpi\\circular_progress_bar.xml"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_btn.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-xxhdpi\\btn.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background.jpg.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable\\background.jpg"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_btnbg.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-xhdpi\\btnbg.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound1.wav.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\raw\\sound1.wav"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btnbg.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-mdpi\\btnbg.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_aa.jpg.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-mdpi\\aa.jpg"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\layout_highscore.xml.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\layout\\highscore.xml"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btnbg.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-ldpi\\btnbg.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\layout\\main.xml"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\raw_winningmenu.mp3.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\raw\\winningmenu.mp3"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\raw_secondhit.wav.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\raw\\secondhit.wav"
     },
     {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "E:\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btnbg.png.flat",
-        "source": "E:\\DxBall\\app\\src\\main\\res\\drawable-hdpi\\btnbg.png"
+        "merged": "E:\\AndroidStudio\\DxBall\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_dx_icon.png.flat",
+        "source": "E:\\AndroidStudio\\DxBall\\app\\src\\main\\res\\drawable-xxhdpi\\dx_icon.png"
     }
 ]

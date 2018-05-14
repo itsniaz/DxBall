@@ -1,6 +1,7 @@
 package com.niaz.dxball;
 
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Point;
 import android.media.MediaPlayer;
@@ -12,6 +13,7 @@ public class Brick {
     Point point;
     int x,y;
     int brickcolor;
+    int hit=0;
 
     
     Brick(float left,float top,float right,float bottom,int color){
@@ -20,8 +22,8 @@ public class Brick {
         this.brickright=right;
         this.brickbottom=bottom;
         this.brickcolor=color;
-        paint=new Paint();
-        paint.setColor(color);
+        paint = new Paint();
+        paint.setColor(brickcolor);
     }
 
     public void setBottom(float bottom) {
@@ -40,6 +42,10 @@ public class Brick {
         this.bricktop = top;
     }
 
+    public void setPaintColor(int color)
+    {
+        paint.setColor(color);
+    }
     public float getLeft() {
         return brickleft;
     }
@@ -58,5 +64,10 @@ public class Brick {
 
     public float getTop() {
         return bricktop;
+    }
+
+    public int getHit()
+    {
+        return  hit;
     }
 }
